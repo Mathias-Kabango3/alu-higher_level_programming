@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """ class:Square"""
+
+
 class Square:
 
     """ class init """
@@ -7,4 +9,4 @@ class Square:
 
     def __init__(self,size):
         '''initialize the rectangle size'''
-        self._size = size
+        self.__size = size
