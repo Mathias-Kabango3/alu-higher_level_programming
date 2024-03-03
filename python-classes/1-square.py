@@ -4,5 +4,7 @@ class Square:
 
     """ class init """
 
+
     def __init__(self,size):
-        self.size = size
+        '''initialize the rectangle size'''
+        self._size = size
