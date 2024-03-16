@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-""" Empty square"""
+"""Create an Empty Square """
+
 class Square:
-    """ Nothing yet """
+    ''' creates an empty square'''
     pass

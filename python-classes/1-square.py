@@ -1,12 +1,13 @@
 #!/usr/bin/python3
-""" class:Square"""
+"""Create a square """
 
 
 class Square:
+    '''
+    Create a square
+        Has a private Instance att: size
+    '''
 
-    """ class init """
-
-
-    def __init__(self,size):
-        '''initialize the rectangle size'''
+    def __init__(self, size):
+        ''' init size '''
         self.__size = size
