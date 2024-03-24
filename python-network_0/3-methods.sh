@@ -1,3 +1,3 @@
 #!/bin/bash
-#return methods allowed
+#return all the allowed methods
 curl -I -s "$1" | grep Allow | cut -d" " -f2-
