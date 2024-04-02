@@ -1,10 +1,6 @@
 #!/usr/bin/python3
-
-'''
-A script that
-- fetches https://alu-intranet.hbtn.io/status.
-- uses urlib package
-'''
+""" request using urllib
+"""
 
 import urllib.request
 
@@ -12,7 +8,7 @@ url = 'https://intranet.hbtn.io/status'
 if url.startswith('https://'):
     url = 'https://alu-intranet.hbtn.io/status'
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     with urllib.request.urlopen(url) as res:
         content = res.read()
         print("Body response:")
