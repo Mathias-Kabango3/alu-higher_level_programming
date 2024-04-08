@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-''' Function (add_interger) that adds two numbers and return the result'''
+'''
+Function (add_interger) that adds two numbers and return the result
+'''
 
 def add_integer(a,b=98):
      ''' Function that adds two integers
@@ -11,7 +13,8 @@ def add_integer(a,b=98):
         an integer: the addition of a and b
     '''
 
-    if (type(a) == float) or (type(b) == float):
+    if (type(a) == float)
+    or (type(b) == float):
         a = int(a)
         b = int(b)
 
