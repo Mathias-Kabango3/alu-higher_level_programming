@@ -1,9 +1,8 @@
-#!/usr/bin/node 
-read arguments
-const myList = arguments.split(' ')
-if(myList.length == 0){
+#!/usr/bin/node
+const argument.process.argv.slice(2)
+if(argument.length == 0){
 	console.log('No argument');
-else if(myList.lenght == 1){
+else if(argument.lenght == 1){
 	console.log('Argument found');
 else{
 	console.log('Arguments found');
