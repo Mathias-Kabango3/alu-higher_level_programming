@@ -1,7 +1,7 @@
 #!/usr/bin/node
 const arg1 = process.argv.slice(2)[0]
-if (Number(arg1) === NaN){
-	console.log('Not a number');
+if (Number(arg1) == arg1){
+	console.log(`My number:${Number(arg1)}`);
 }else{
-	console.log(`My number: <${Number(arg1)}`);
+	console.log('Not a number');
 }
